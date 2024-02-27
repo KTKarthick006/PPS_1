@@ -1,0 +1,707 @@
+MODULES 1, 2 & 3 
+1. Construct a program to read the numbers until -1 is encountered. Find the average of
+positive numbers and negative numbers entered by user. (Module-1, Easy) 
+Sample Input: 
+Enter -1 to exit… 
+Enter the number: 7 
+Enter the number: -2 
+Enter the number: 9 
+Enter the number: -8 
+Enter the number: -6 
+Enter the number: -4 
+Enter the number: 10 
+Enter the number: -1 
+Sample Output: 
+The average of negative numbers is: -5.00 
+The average of positive numbers is : 8.6 
+case =1 
+input= 
+7 
+-2 
+9 
+-8 
+-6 
+-4 
+10 
+-1 
+output= 
+8.6 
+-5.00 
+case=2 
+input= 
+45 
+34 
+23 
+90
+-2 
+40 
+-7 
+-1 
+output= 
+46.4 
+-4.2 
+case=3 
+input= 
+1 
+2 
+3 
+-1 
+Output= 
+6.0 
+0 
+2. Develop a program to print an arrangement of its members into a sequence or linear 
+order, and the order is not repeated again. (Module-1, Hard) 
+Sample Input: 
+Given Number: 143 
+Sample Output: 
+Combinations are: 
+134 
+143 
+314 
+341 
+413 
+431 
+case=1 
+input= 
+143 
+Output= 
+134 
+143
+314 
+341 
+413 
+431 
+Case=2 
+Input= 
+6751 
+Output= 
+6751 
+6715 
+6571 
+6571 
+6157 
+6175 
+7516 
+7561 
+7156 
+7165 
+7651 
+7615 
+5671 
+5617 
+5761 
+5716 
+5176 
+5167 
+1567 
+1576 
+1756 
+1765 
+1657 
+1675 
+case=3
+input= 
+111 
+output=
+No possible combinations 
+3. Calculate tax given the following conditions:
+If income is less than or equal to 1,50,000 then no tax 
+If taxable income is 1,50,001 – 3,00,000 then charge 10% tax for the remaining slab 
+If taxable income is 3,00,001 – 5,00,000 then charge 20% tax for the remaining slab 
+If taxable income is above 5,00,001 then charge 30% tax for the remaining slab 
+(Module -1, Medium) 
+Sample Input: Enter the income: 200000 
+Sample Output: Tax= 5000. 
+case=1 
+input= 
+200000 
+output= 
+5000 
+case=2 
+input= 
+300000 
+output= 
+15000 
+case=3 
+input= 
+125000 
+output= 
+no tax 
+4. In an organization they decide to give bonus to all the employees on New Year. A 
+5% bonus on salary is given to the grade A workers and 10% bonus on salary to the 
+grade B workers. Write a program to enter the salary and grade of the employee. If the 
+salary of the employee is less than $10,000 then the employee gets an extra 2% bonus on 
+salary Calculate the bonus that has to be given to the employee and print the salary that 
+the employee will get. (Module-1 Hard) 
+Sample Input:
+Enter the grade of the employee: B 
+Enter the employee salary: 50000 
+Salary=50000 
+Sample Output:
+Bonus=5000.0 
+Total to be paid:55000.0 
+case=1 
+input= 
+B 
+50000 
+output= 
+5000 
+55000 
+case=2 
+input= 
+B 
+10000 
+output= 
+200 
+10200 
+case=3 
+input= 
+C 
+10000 
+output= 
+No such category 
+5. A company is recruiting persons base on daily wages. The wage is fixed based on 
+the hours of service. For the first 5 hours the wage is Rs.500. for the additional hours his 
+wage is 10% for 1 hour, 20% for two hours and 30% for three hours. The person can 
+work upto 8 hours per day. Write C program to read the details of two workers and
+calculate total payment of workers using structure.(Module-1, Medium) 
+Sample Inputs:
+Enter the worker name: Sai 
+Enter the hours of work: 8 
+Enter the worker name: Ram 
+Enter the hours of work: 6 
+Sample output: 
+Name of first worker: Sai 
+Received wages of : Rs. 650 
+Name of second worker: Ram
+Received wages of : Rs. 550 
+case =1 
+input= 
+sai 
+8 
+ram
+6 
+output= 
+sai 
+650 
+ram
+550 
+case =2 
+input= 
+sai 
+10 
+ram
+6 
+output= 
+sai 
+not applicable 
+ram 
+550 
+case=3 
+input= 
+sai 
+1 
+ram
+8 
+output= 
+sai 
+not applicable 
+ram 
+550 
+6. Write a C-Program to find the Number of ways of selecting words from n-consonants and mvowels when r1-consonants and r2 vowels are chosen. 
+i.e ncr1 * mcr2 
+Make sure entered numbers are valid to calculate factorial.
+(Module-1, Hard) 
+Sample Input:
+Enter number of total consonants =7 
+Enter the number of chosen consonants=3 
+Enter number of total vowels =4 
+Enter the number of chosen consonants=2 
+Sample Output: 
+Number of ways of selecting words:210 
+case =1 
+input= 
+7 
+3 
+4 
+2 
+Output= 
+210 
+case =2: 
+input= 
+6 
+2 
+2 
+2 
+output= 
+15 
+case=3 
+input= 
+7 
+3 
+-4 
+2 
+output= 
+Invalid 
+7. Write a c-program to display the binary format of the user entered number if it is 
+prime else display In hexadecimal format 
+(Module-1, easy) 
+Sample Input 1: 
+Enter number =7 
+Sample Output 1: 
+111 
+Sample Input 2: 
+Enter number =10 
+Sample Output 2: 
+A
+case =1 
+input= 
+7 
+Output= 
+111 
+case=2 
+input= 
+15 
+output= 
+F
+case=3 
+input= 
+-5 
+output= 
+Invaild 
+8. Write a c-program to determine the digital root of a second largest element in an array 
+consisting of 6 elements. 
+(Module-1, easy) 
+Sample Input 1: 
+Input array=17 15 8 63 32 5 
+Sample Output 1:
+Output=5 
+Sample Input 2: 
+Input array=59 59 58 59 59 60 
+Sample Output 2: 
+Output=5 
+case =1 
+input= 
+17 15 8 63 32 5 
+Output= 
+5 
+case=2 
+input= 
+59 59 59 58 59 60 
+output= 
+5 
+case=3 
+input= 
+59 59 59 59 59 59 
+output= 
+All same 
+9. A neon number is a number where the sum of digits of square of the number is equal to 
+the number. Write a c program to check whether given number is neon numbers or not. 
+(Module-1, Medium) 
+Sample Input 1:
+Input : 9 
+Sample Output 1: 
+Neon Number 
+Sample Input 2: 
+Input : 8 
+Sample Output 2: 
+Not a Neon Number 
+case =1 
+input= 
+9 
+Output= 
+Yes 
+case =2 
+input= 
+8 
+Output= 
+No 
+case =3 
+input= 
+0 
+Output= 
+Invalid 
+10. Write a c-program to find the smallest possible two digit sum of a 4 digit number.
+e.g 5592 is the input 25+59=84 is the smallest two digit sum possible. 
+(Module-1, easy) 
+Sample Input 1:
+5592 
+Sample Output 1: 
+84 
+Sample Input 2: 
+-5592 
+Sample Output 2: 
+invalid 
+case =1 
+input= 
+5592 
+Output= 
+84 
+case =2 
+input= 
+2023 
+Output= 
+25 
+case =3 
+input=- 
+4327 
+Output= 
+Invalid 
+11. Complete the function void update(int *a,int *b). It receives two integer pointers, int* a 
+and int* b. Set the value of to their product, and to their sum. There is no return value, 
+and no return statement is needed.
+(Module-3, easy) 
+Input Format
+The input will contain two integers, and , separated by a newline.
+Output Format
+Modify the two values in place and the code main() will print their values.
+Case =1 
+Input= 
+4 
+5 
+Output= 
+20 
+9 
+Case =2 
+Input= 
+8 
+7 
+Output= 
+56 
+15 
+Case =3 
+Input= 
+10.5 
+5.4 
+Output=
+Invalid 
+12. Using pointer, write a C program that reads a character string and a character as 
+input and deletes all occurrence of this character in the string. The program should 
+display the corrected string with no holes. 
+(Module-3, easy) 
+Input format
+The input will contain a string and a character, both are separated by a newline.
+Output format
+The corrected string.
+Case =1 
+Input= 
+Hello World 
+o
+Output=
+Hell Wrld
+Case =2 
+Input=
+C Programming 
+m
+Output=
+C Prograing
+Case =3 
+Input= 
+University 
+3
+Output=
+No match
+13. Suppose Richard wish to enter a list of country name into the computer, rearrange 
+them into alphabetical order, and then display the rearranged list. Richard made the 
+skeletal of the C program shown below. Complete the function reorder(int n, char *x[])to 
+help Richard for his task. 
+(Module-3, Medium) 
+Input format
+The input will contain list of country, and separated by a newline.
+Output format
+Display the list of country in alphabetically order.
+Case =1 
+Input= 
+India 
+Auckland 
+Britain 
+Zimbabwe 
+Australia 
+END
+Output: 
+Auckland
+Australia 
+Britain 
+India
+Zimbabwe
+Case =2 
+Input= 
+Japan 
+Nepal 
+Brazil 
+END
+Output= 
+Brazil 
+Japan
+Nepal
+Case =3 
+Input= 
+2
+3
+END
+Output= 
+Invalid
+14. There are n squirrel(s) waiting below the feet of m chestnut tree(s). The first chestnut 
+of the i-th tree will fall right after Ti second(s), and one more every Pi second(s) after that. 
+The “big mama” of squirrels wants them to bring their nest no less than k chestnuts to
+avoid the big storm coming, as fast as possible! So they are discussing to wait below which
+trees to take enough chestnuts in the shortest time. Time to move to the positions is zero, 
+and the squirrels move nowhere after that.
+Request
+Use the pointer concept to calculate the shortest time (how many seconds more) the 
+squirrels can take enough chestnuts.
+(Module-3, Hard) 
+Input format
+The first line contains the integers m,n,k, respectively.
+The second line contains the integers Ti (i=1..m), respectively. 
+The third line contains the integers Pi (i=1..m), respectively.
+(Each integer on a same line is separated by at least one space character) 
+Output format
+The shortest time calculated.
+Case =1 
+Input= 
+3 2 5
+5 1 2
+1 2 1
+Output= 
+4
+Case =2 
+Input= 
+3 2 4
+2 1 1
+3 1 1
+Output= 
+2 
+Case =3 
+Input= 
+4 2 6 
+2 4 5 
+6 7 8 
+Output= 
+Invalid 
+15. Write a function day_name() that receive a number n and return a pointer to a 
+character string containing the name of the corresponding day. The day names should be 
+kept in a static table of character strings local to the function.
+(Module-3, Medium) 
+Input format
+The first line contains the integer n.
+Output format
+The corresponding character string.
+Case =1 
+Input= 
+2 
+Output= 
+Tuesday 
+Case =2 
+Input= 
+1 
+Output= 
+Monday 
+Input= 
+10 
+Output= 
+Invalid 
+16. Earthquake Research Institute of Japan has recorded earthquake occurred in the year 
+2021 using Richter scale. Develop a program to get the ’n’ (number of times) the 
+earthquake has occurred and print the number of times in which the magnitude was low, 
+medium and high. The magnitude value is given in microns. If the value is less than 
+5.4(inclusive) in microns then it is low, 5.4 to 7.0 (inclusive) it is medium and more than 7.0 
+it is high. Also, if the number of times recorded is Zero, display as “No earthquake 
+predicted” and if the number of times recorded is negative, display as “Invalid Input”. 
+(Module-2, Medium) 
+Sample Input and output:
+Input: 
+Number of times (n) the earthquake has occurred 
+Magnitude in microns for each earthquake occurred 
+Output:
+Count of low, medium and high 
+case=1
+input= 7 4.3 6.6 8.1 2.1 3.3 7.5 7.6 
+output= 3 1 3 
+case=2
+input= 5 9.1 8.1 8.3 2.3 7.3 
+output= 1 0 4 
+case=3
+input= -3 
+output= Invalid Input 
+17. Create a C program called BankMgmt with AccNumber, CustName, AvlBalance, 
+AccType as members. Implement a Bank management Application as menu 
+driven program using Array and function concept 
+Menu Option: 
+1. Withdrawal 2. Deposit 3. Display Balance 4. Exit 
+If option 
+1 is chosen- Amount can be withdrawn from the account (Withdrawn amount should 
+be given as input). For withdrawal the condition is- the AvlBalance must be greater 
+than withdrawn amount). 
+2 is chosen- Amount can be deposited to the account (the deposited amount should be 
+given as input). The deposited amount should be reflected in AvlBalance of the 
+account. 
+3 is chosen - Current available balance (AvlBalance) of the AccNumber should be 
+Displayed with other details 
+4 is chosen - Exit from the application 
+(Module-2, Hard) 
+Sample Input and output: 
+Input: 
+Account num: SB100 
+Output: 
+Name: Prasanth Kumar 
+Available balance: 4500.00 
+Acount type: SB
+case=1
+input: 1 
+Enter amount for withdraw: 5000 
+Output 
+Amount withdrawn: 5000 & Available balance:26000 
+case=2
+input: 2 
+Enter amount for deposit: 5000 
+output 
+Amount deposited: 4000 
+Available balance is:30000 
+case=3
+input 1 
+Enter amount for withdraw: 34000 
+Output 
+Invalid amount request, check balance. 
+18. Given a cricket team with size M x N with multiple players are already occupied 
+double bedded rooms, separate the even and odd players and make them to occupy in 
+single bedded room (Odd & Even). After separation sort and display in ascending order as 
+shown in output. 
+(Module-2, Easy) 
+Sample input & o/p:
+Input: 
+Enter the player numbers: 2 9 12 15 16 24 45 5 7 
+Output: 
+OddPlayers[] = 5 7 9 15 25 45 
+EvenPlayers[] = 2 12 16 24 
+Case 1:
+Input: 
+Enter the player numbers: 6 7 32 91 9 34 3 
+Output: 
+OddPlayers[] = 3 6 9 7 91 
+EvenPlayers[] = 6 32 34 
+Case 2:
+Input: 
+Enter the player numbers: 42 6 81 34 
+Output: 
+OddPlayers[] = 81 
+EvenPlayers[] = 6 34 42 
+Case 3:
+Input: 
+Enter the player numbers: 6 7 32 -1 9 34 -32 
+Output: 
+Invalid input, all input must be positive numbers 
+19. An online educational platform offers three courses: Programming Courses, Robotics 
+Courses and Academic Writing Courses : The vendor gives a discount of 10% on orders 
+for programming based courses if the order is for more than Rs. 1000. 
+On orders of more than Rs. 750 for Robotics Courses, a discount of 5% is given, and a 
+discount of 10% is given on orders for academic writing courses of value more than Rs. 
+500. Assume that the numeric codes 1,2 and 3 are used for Programming, Robotics and 
+Academic Writing Courses respectively. 
+Get the max 5 student registration for each courses Write a program that reads the 
+product code and the order amount and prints out the net amount that the learner is 
+required to pay after the discount. 
+(Module-2, Medium) 
+Sample Input/ Output format:
+Input: 
+product code: 1 
+order amount: 2000 
+Output: 
+Thanks, your discounted amount: 1800.00 
+case=1
+input= 
+1 
+2000 
+- output=1800.00 
+case=2
+input= 
+2 
+1575 
+- output=1496.25 
+case=3
+input= 
+3 
+-750 
+- output= Invalid input 
+24. Write a program to create two grocery storage with minimum five items each. Merge 
+the storage to new space storage in such a way that first storage may be copied as it is and 
+reverse only the second array and merge it. Perform sorting in the new array and print it. 
+Implement the same by passing appropriate arrays to functions. Below is the sample 
+output. 
+(Module-2, Easy) 
+Sample Input and output
+Input: 
+Enter the number of elements for First Tank : 4 
+Enter the items for First Tank: 4 13 12 1 
+Enter the number of elements for Second Tank : 4 
+Enter the items for Second Tank : 4 6 7 8 9 
+Output: 
+Elements After Merging 4 13 12 1 9 8 7 6 
+The sorted elements are 1 4 6 7 8 9 12 13 
+Case 1:
+Input: 
+Enter the number of elements for First Tank : 2 
+Enter the items for First Tank: 43 56 
+Enter the number of elements for Second Tank : 2 
+Enter the items for Second Tank : 12 65 
+Output: 
+Elements After Merging 43 56 12 65 
+The sorted elements are 12 43 56 65 
+Case 2: 
+Input: 
+Enter the number of elements for First Tank : 2 
+Enter the items for First Tank: 43 56 
+Enter the number of elements for Second Tank : -1 
+Invalid input, enter details again 
+Enter the number of elements for Second Tank : 2 
+Enter the items for Second Tank : 12 65 
+Output: 
+Elements After Merging 43 56 12 65 
+The sorted elements are 12 43 56 65 
+Case 3:
+Input: 
+Enter the number of elements for First Tank : -1 
+Invalid input, Enter details again 
+Enter the number of elements for First Tank : 1 
+Invalid, Item must be more than 1 
+You have given invalid input 2 times and more, you cannot continue. Thanks. 
+20. Get a DOB from the user which is an 8 digit number. Check whether it is a Lucky 
+number or not by following the steps below: 
+Step-1: Calculate the sum of the digits in the odd-numbered positions (the first, third, fifth 
+and seventh digits) and multiply this sum by 3. 
+Step-2: Calculate the sum of the digits in the even-numbered positions (the second, fourth, 
+sixth and eighth digits) and add this to the previous result (got in step 1). 
+Given Date of Birth is declared as a lucky number, only if the last digit of the result from 
+step 2 is 0. 
+Develop a program to read the Date of Birth, if the number of digits is not 8 then print 
+“Cannot be processed” and terminate program. If the number of digits is 8 and if the DOB 
+is a lucky number, output the DOB with the message “Lucky Number.” If the number of 
+digits is 8 and if the DOB is not a lucky number, output the DOB with the message “Not a 
+Lucky Number.” 
+For example the DOB is 12032003, 
+the result from step 1 is 9, 
+the result from step 2 is 17 
+The output is 12032003, “Not a Lucky Number” 
+For example the DOB is 13101978, 
+the result from step 1 is 30, 
+the result from step 2 is 50, 
+The output is 13101978, “Lucky Number.” 
+For example if the DOB is 1110197, 
+The output is “Invalid Input” 
+(Module-2, Hard)
+Sample Input/ Output format 
+Input: 
+Enter the Date of Birth: 12032003 
+Output: 
+You have entered 12032003, is “Not a Lucky Number” 
+case=1
+Enter the DOB: 12032003 
+output= 12032003, 
+Not a Lucky Number 
+case=2
+input= 13101978 
+output= 12032003 
+Lucky Number 
+case=3
+input= 1110197 
+output= Invalid Input 
